@@ -1,0 +1,298 @@
+.fondo-principal {
+  background-color: black;
+}
+
+p {
+  margin: 0;
+}
+header {
+  background-color: black;
+}
+ul.ul-header {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+h2 {
+  font-size: 2.1em;
+}
+li.li-header {
+  list-style: none;
+}
+.footer {
+  background: #c05131;
+}
+
+li.li-media {
+  list-style: none;
+  margin-right: 21px;
+}
+.mystique-vision-msion-container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding-top: 50px;
+}
+li.li-header {
+  list-style: none;
+  margin-left: 30px;
+  font-size: 17px;
+}
+ul.ul-media {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  padding: 10px 0 10px 0;
+}
+.a-media i {
+  font-size: 2em;
+  color: white;
+}
+a.a-header {
+  color: white;
+  font-weight: 700;
+}
+.valores-container {
+  display: grid;
+  grid-template-columns: repeat(4, 25%);
+}
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  list-style: none;
+}
+.single-producto-img {
+    text-align: center;
+}
+.mystique-productos h2{
+    padding: 25px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.productos-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.single-pruducto-informacion h4{
+    text-align: center;
+    margin: 20px;
+}
+.mision-vision-container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 15px;
+}
+.single-producto {
+ 
+    width: 20%;
+    display: grid;
+    grid-template-rows: 1fr 179px;
+    height: 500px;
+}
+.single-producto-img img{
+    height: 100%;
+}
+
+button.btn.btn-primary {
+    background: #65443d;
+    border-color: #65443d;
+    font-weight: 700;
+}
+.contact {
+    margin-bottom: 25px;
+}
+.only-value {
+  display: flex;
+  margin: 30px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.value-text {
+  width: 100%;
+}
+.value-icon {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.value-text p {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 700;
+}
+.container-fluid {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.value-text-information p {
+  font-size: 20px;
+}
+
+.value-icon i {
+  font-size: 4em;
+  color: #65443d;
+}
+.mision-text p {
+  font-size: 20px;
+}
+.mision-container {
+  padding: 50px 0 50px 0;
+}
+.contact-container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.contact-image img {
+  width: 50%;
+}
+.contact-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.delivery h2{
+    text-align: center;
+    font-weight: 700;
+}
+.delivery-container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.single-list-delivery i {
+    font-size: 30px;
+    color: green;
+}
+
+.delivvery-img img{
+    width: 45%;
+}
+.delivery {
+    padding: 100px 0;
+}
+.contact h2{
+    text-align: center;
+    font-weight: 700;
+}
+.single-list-delivery {
+
+    display: flex;
+    margin: 15px;
+    justify-content: flex-start;
+    align-items: center;
+}
+.single-list-delivery p{
+    font-size: 20px;
+    margin-left: 15px;
+}
+.delivvery-img {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.delivery-list-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.my-float{
+	margin-top:16px;
+}
+@media only screen and (max-width: 1024px) and (min-width: 769px ){
+
+  .mision-vision-container {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-gap: 15px;
+}
+  .single-producto {
+    width: 32%;
+}
+.mystique-vision-msion-container {
+  display: grid;
+  grid-template-columns: 100%;
+  padding-top: 50px;
+  text-align: center;
+}
+.contact-image img {
+  width: 75%;
+}
+
+}
+@media only screen and (max-width: 768px) and (min-width: 300px ){
+    .single-producto {
+        width: 100%;
+    }
+    .mision-vision-container {
+        grid-template-columns: 100%;
+    }
+    .valores-container {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        text-align: center;
+    }
+    .mystique-vision-msion-container {
+        grid-template-columns: 100%;
+    
+    }
+    .delivery-container {
+        display: grid;
+        grid-template-columns: 100%;
+    }
+    .value-text-information h2{
+        text-align: center;
+    }
+    .header-container {
+        justify-content: center;
+        align-items: center;
+    }
+    .container-fluid {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .contact-image {
+        display: none;
+    }
+    .value-text-information p {
+        font-size: 20px;
+        text-align: justify;
+    }
+    .menu-container {
+        display: none;
+    }
+    .contact-container {
+        display: grid;
+        grid-template-columns: 100%;
+    }
+.mision-text h2{
+    text-align: center;
+}
+    .mision-text p {
+        text-align: justify;
+    }
+}
